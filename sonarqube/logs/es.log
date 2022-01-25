@@ -26,3 +26,4 @@
 2022.01.24 21:59:02 WARN  es[][o.e.t.ThreadPool] timer thread slept for [6.1s/6193ms] on absolute clock which is above the warn threshold of [5000ms]
 2022.01.24 21:59:02 WARN  es[][o.e.t.ThreadPool] timer thread slept for [6.1s/6193345135ns] on relative clock which is above the warn threshold of [5000ms]
 2022.01.24 21:59:02 WARN  es[][o.e.t.ThreadPool] timer thread slept for [23.2m/1393378ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.01.24 22:00:53 INFO  es[][o.e.m.j.JvmGcMonitorService] [gc][4580] overhead, spent [457ms] collecting in the last [1s]
