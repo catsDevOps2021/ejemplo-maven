@@ -1,6 +1,0 @@
-2022.01.23 00:13:36 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
-2022.01.23 00:13:37 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is stopped
-2022.01.23 00:13:39 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
-2022.01.23 00:13:40 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
-2022.01.23 00:13:40 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
-2022.01.23 00:13:40 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped

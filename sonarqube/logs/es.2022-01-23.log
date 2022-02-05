@@ -1,8 +1,0 @@
-2022.01.23 00:05:34 WARN  es[][o.e.t.ThreadPool] timer thread slept for [11.5s/11513ms] on absolute clock which is above the warn threshold of [5000ms]
-2022.01.23 00:05:41 WARN  es[][o.e.t.ThreadPool] timer thread slept for [11.5s/11513387505ns] on relative clock which is above the warn threshold of [5000ms]
-2022.01.23 00:05:41 WARN  es[][o.e.t.ThreadPool] timer thread slept for [21.7h/78234634ms] on absolute clock which is above the warn threshold of [5000ms]
-2022.01.23 00:05:41 WARN  es[][o.e.t.ThreadPool] timer thread slept for [9.5s/9556085789ns] on relative clock which is above the warn threshold of [5000ms]
-2022.01.23 00:13:39 INFO  es[][o.e.n.Node] stopping ...
-2022.01.23 00:13:39 INFO  es[][o.e.n.Node] stopped
-2022.01.23 00:13:39 INFO  es[][o.e.n.Node] closing ...
-2022.01.23 00:13:39 INFO  es[][o.e.n.Node] closed

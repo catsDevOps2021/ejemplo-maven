@@ -1,29 +1,20 @@
-2022.01.24 20:20:50 INFO  es[][o.e.n.Node] version[7.16.2], pid[40], build[default/tar/2b937c44140b6559905130a8650c64dbd0879cfb/2021-12-18T19:42:46.604893745Z], OS[Linux/5.10.60.1-microsoft-standard-WSL2/amd64], JVM[Alpine/OpenJDK 64-Bit Server VM/11.0.12/11.0.12+7-alpine-r0]
-2022.01.24 20:20:51 INFO  es[][o.e.n.Node] JVM home [/usr/lib/jvm/java-11-openjdk]
-2022.01.24 20:20:51 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseG1GC, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djna.tmpdir=/opt/sonarqube/temp, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=COMPAT, -Dcom.redhat.fips=false, -Xmx512m, -Xms512m, -XX:MaxDirectMemorySize=256m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=false]
-2022.01.24 20:20:51 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
-2022.01.24 20:20:51 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
-2022.01.24 20:20:51 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
-2022.01.24 20:20:51 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
-2022.01.24 20:20:51 INFO  es[][o.e.p.PluginsService] no plugins loaded
-2022.01.24 20:20:51 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (C:\134)]], net usable_space [336.5gb], net total_space [476.1gb], types [9p]
-2022.01.24 20:20:51 INFO  es[][o.e.e.NodeEnvironment] heap size [512mb], compressed ordinary object pointers [true]
-2022.01.24 20:20:52 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [OokrsvIiS16rKkddJWLyGg], cluster name [sonarqube], roles [data_frozen, master, remote_cluster_client, data, data_content, data_hot, data_warm, data_cold, ingest]
-2022.01.24 20:20:55 INFO  es[][o.e.t.NettyAllocator] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=512mb}]
-2022.01.24 20:20:55 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and seed hosts providers [settings]
-2022.01.24 20:20:56 INFO  es[][o.e.g.DanglingIndicesState] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
-2022.01.24 20:20:56 INFO  es[][o.e.n.Node] initialized
-2022.01.24 20:20:56 INFO  es[][o.e.n.Node] starting ...
-2022.01.24 20:20:56 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:44741}, bound_addresses {127.0.0.1:44741}
-2022.01.24 20:20:57 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-2022.01.24 20:20:57 INFO  es[][o.e.c.c.Coordinator] cluster UUID [rRZxIi1nQzKvrr6DbnhHKA]
-2022.01.24 20:20:57 INFO  es[][o.e.c.s.MasterService] elected-as-master ([1] nodes joined)[{sonarqube}{OokrsvIiS16rKkddJWLyGg}{-UJ6g8G_TGO7edu1YejEwg}{127.0.0.1}{127.0.0.1:44741}{cdfhimrsw} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 3, version: 72, delta: master node changed {previous [], current [{sonarqube}{OokrsvIiS16rKkddJWLyGg}{-UJ6g8G_TGO7edu1YejEwg}{127.0.0.1}{127.0.0.1:44741}{cdfhimrsw}]}
-2022.01.24 20:20:57 INFO  es[][o.e.c.s.ClusterApplierService] master node changed {previous [], current [{sonarqube}{OokrsvIiS16rKkddJWLyGg}{-UJ6g8G_TGO7edu1YejEwg}{127.0.0.1}{127.0.0.1:44741}{cdfhimrsw}]}, term: 3, version: 72, reason: Publication{term=3, version=72}
-2022.01.24 20:20:57 INFO  es[][o.e.h.AbstractHttpServerTransport] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
-2022.01.24 20:20:57 INFO  es[][o.e.n.Node] started
-2022.01.24 20:20:57 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
-2022.01.24 20:21:04 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]]]).
-2022.01.24 21:59:02 WARN  es[][o.e.t.ThreadPool] timer thread slept for [6.1s/6193ms] on absolute clock which is above the warn threshold of [5000ms]
-2022.01.24 21:59:02 WARN  es[][o.e.t.ThreadPool] timer thread slept for [6.1s/6193345135ns] on relative clock which is above the warn threshold of [5000ms]
-2022.01.24 21:59:02 WARN  es[][o.e.t.ThreadPool] timer thread slept for [23.2m/1393378ms] on absolute clock which is above the warn threshold of [5000ms]
-2022.01.24 22:00:53 INFO  es[][o.e.m.j.JvmGcMonitorService] [gc][4580] overhead, spent [457ms] collecting in the last [1s]
+2022.02.05 01:29:00 WARN  es[][o.e.t.ThreadPool] timer thread slept for [8.1m/489632ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 01:29:07 WARN  es[][o.e.t.ThreadPool] timer thread slept for [8.1m/489631715412ns] on relative clock which is above the warn threshold of [5000ms]
+2022.02.05 01:29:11 WARN  es[][o.e.t.ThreadPool] timer thread slept for [11.9s/11954ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 01:29:14 WARN  es[][o.e.t.ThreadPool] timer thread slept for [11.9s/11953886895ns] on relative clock which is above the warn threshold of [5000ms]
+2022.02.05 01:29:29 WARN  es[][o.e.t.ThreadPool] timer thread slept for [7.5s/7554ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 01:29:29 WARN  es[][o.e.t.ThreadPool] execution of [ReschedulingRunnable{runnable=org.elasticsearch.monitor.jvm.JvmGcMonitorService$1@137ea66a, interval=1s}] took [7553ms] which is above the warn threshold of [5000ms]
+2022.02.05 14:42:25 WARN  es[][o.e.t.ThreadPool] timer thread slept for [7.5s/7553921364ns] on relative clock which is above the warn threshold of [5000ms]
+2022.02.05 14:42:25 WARN  es[][o.e.t.ThreadPool] timer thread slept for [13.2h/47576330ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 16:12:26 WARN  es[][o.e.t.ThreadPool] timer thread slept for [49.7m/2986101ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 16:12:27 WARN  es[][o.e.t.ThreadPool] timer thread slept for [49.7m/2986101677858ns] on relative clock which is above the warn threshold of [5000ms]
+2022.02.05 16:12:27 WARN  es[][o.e.m.f.FsHealthService] health check of [/opt/sonarqube/data/es7/nodes/0] took [2986102ms] which is above the warn threshold of [5s]
+2022.02.05 16:12:54 WARN  es[][o.e.t.ThreadPool] timer thread slept for [11.9s/11970ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 16:13:28 WARN  es[][o.e.t.ThreadPool] timer thread slept for [11.9s/11970524425ns] on relative clock which is above the warn threshold of [5000ms]
+2022.02.05 16:13:28 WARN  es[][o.e.t.ThreadPool] timer thread slept for [33.9s/33935ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 16:37:37 WARN  es[][o.e.t.ThreadPool] timer thread slept for [19.6s/19633ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 19:24:13 WARN  es[][o.e.t.ThreadPool] timer thread slept for [19.6s/19633366995ns] on relative clock which is above the warn threshold of [5000ms]
+2022.02.05 19:24:14 WARN  es[][o.e.t.ThreadPool] timer thread slept for [2.7h/9997298ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.02.05 19:24:14 WARN  es[][o.e.t.ThreadPool] timer thread slept for [5.6s/5694656103ns] on relative clock which is above the warn threshold of [5000ms]
+2022.02.05 21:24:52 WARN  es[][o.e.m.j.JvmGcMonitorService] [gc][young][17847][17] duration [1.4s], collections [1]/[2.2s], total [1.4s]/[11.3s], memory [150.3mb]->[62.4mb]/[512mb], all_pools {[young] [88mb]->[0b]/[0b]}{[old] [61.3mb]->[61.4mb]/[512mb]}{[survivor] [1mb]->[1mb]/[0b]}
+2022.02.05 21:24:53 WARN  es[][o.e.m.j.JvmGcMonitorService] [gc][17847] overhead, spent [1.4s] collecting in the last [2.2s]
